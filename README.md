@@ -18,6 +18,7 @@ The data contains 12 columns and 918 rows. 5 of the features are numeric data(Ag
 ![image](https://user-images.githubusercontent.com/103012497/186911796-c67b2242-f222-47da-99d4-f8638b28177c.png)
 
 **Process**
+
 The cholesterol columnm had a minimum value of 0. High Cholesterol increases a patients risks for HeartDisease and Lower Cholesterol levels are generally good but 0 level could be an indicator that the value was missing and replaced with 0. I used my judgment to replace that value with the mode value of the dataset which still returned 0 as 0 was the most frequent value. I finally decided to used the mean which returned a value of 85.
 
 
@@ -44,8 +45,10 @@ False negatives are the most important metrics to consider with this project. Th
 
 
 **Recommendations**
+
 The concern raised about the final model's prediction can however, be reduced by adding more data to train the model to possibly get the prediction results lower than 5% or. Adding some more features or removing some of the attributes after talking to a subject matter expert is also another recommendation.
 
 **Contact**
+
 Name: David Addo
 Email: [addodavid4410@gmail.com](url)
